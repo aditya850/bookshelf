@@ -1,0 +1,8 @@
+.branch-block{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border-color: #fff;
+    background-color: #000;
+    float: left;
+}

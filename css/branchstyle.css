@@ -1,0 +1,218 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Segoc UI',sans-serif;
+}
+@media (max-width: 1200px){
+	.listactive{
+		color: #000;
+	}
+}
+.course{
+	font-family: "Sofia", sans-serif;
+	font-size: 3em;
+	font-weight: 700;
+	color: #fff;
+}
+span{
+	border-radius: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #ffffff;
+	color: #000;
+	border-style: solid;
+	border-color: #fff;
+}
+.block{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	float: left;
+	box-shadow: 3px 5px #fff;
+	border-color: #fff;
+	border-radius: 10px;
+	border-style: solid;
+	height: 500px;
+	width: 32.5%;
+	background-color: #67f;
+}
+.block:hover {
+    margin-top: 20px;
+}
+label.logo{
+	color: #fff;
+	font-size: 35px;
+	line-height: 80px;
+	font-weight: 500;
+	margin-top: 10px;
+	padding: 0 0px;
+}
+nav{
+	background: #1f1f1f;
+	height: auto;
+	width: 100%;
+	position: fixed;
+}
+nav ul{
+	float: right;
+	margin-right: 50px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 70px;
+	margin-top: 10px;
+}
+nav ul li a{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 600;
+}
+nav ul li a:hover{
+	color: #707070;
+	transition: .3s;
+}
+svg text{display: none;}
+svg text:hover{display: block;}
+}
+span{
+	font-size: 17px;
+}
+.togglebtn{
+	color: #fff;
+	float: right;
+	line-height: 80px;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+
+@media (max-width: 1230px){
+	.block{
+		width: 32%;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 0px;
+	}
+	nav ul li a{
+		font-size: 19px;
+	}
+	.block{
+		width: 32%;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 858px){
+	.shelf{
+		border-color: #fff;
+		background-color: #fff;
+		width:70.8px;
+		height:78.8px;
+		color:#000;
+	}
+	nav ul li a p{
+		color: #000;
+}
+.blo1{
+    margin-left: 15.5%;
+}
+   .blo2{
+	margin-right: 15.5%;
+	float: right;
+}
+}
+@media (max-width: 1230px){
+	.block{
+		width: 32%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 0px;
+	}
+	nav ul li a{
+		font-size: 19px;
+	}
+	.block{
+		width: 32%;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 858px){
+	.shelf{
+		border-color: #fff;
+		background-color: #fff;
+		width:70.8px;
+		height:78.8px;
+		color:#000;
+	}
+	nav ul li a p{
+		color: #000;
+}
+
+}
+
+@media (max-width: 858px){
+	.togglebtn{
+		display: block;
+	}
+	.block{
+		width: 95%;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: -60px;
+		margin-bottom: 20px;
+	}
+	ul{
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		background: #222;
+		top: 80px;
+		text-align: center;
+		left: 100%;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a{
+		font-size: 25px;
+	}
+	nav ul li a:hover{
+		color: #707070;
+	    transition: .3s;
+	}
+	#check:checked~ul{
+		left: 0;
+	}
+}
+nav ul li a button{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 25px;
+	font-family: 'Segoe UI Black';
+}
+button:hover{
+	color: #bd0000;
+}

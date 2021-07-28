@@ -1,0 +1,176 @@
+.box{
+	border:7px;
+	border-radius: 10px;
+	border-color: #000000;
+	padding-top: 10px;
+	width: 600px;
+	height: 620px;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	background-color: #ffffff; 
+}
+.imgpart{
+	width: 500px;
+	height: 500px;
+	float: left;
+	margin-top: 3px;
+	margin-bottom: 5px;
+	background-image: url('IMAGES/new.png');
+}
+.head{
+	margin-top: 10px;
+    color: #000000;
+	font-family: 'Courier New';
+}
+input[type='first_name']{
+	width: 500px;
+	margin: 20px 10px 10px 10px;
+	border-color: #c3c5d2;
+	border-radius: 10px;
+	padding-left: 20px;
+	height: 40px;
+	font-size: 1.5em;
+	font-family: 'Segoe UI Black';
+}
+input[type='first_name']:hover{
+	width: 505px;
+	height: 43px;
+	border-radius: 10px;
+	border-color: #324ab2;
+	color: #000000;
+}
+input[type='email']{
+	width: 500px;
+	margin: 20px 10px 10px 10px;
+	border-color: #c3c5d2;
+	border-radius: 10px;
+	padding-left: 20px;
+	height: 40px;
+	font-size: 1.5em;
+	font-family: 'Segoe UI Black';
+}
+input[type='email']:hover{
+	width: 505px;
+	height: 43px;
+	border-radius: 10px;
+	border-color: #324ab2;
+	color: #000000;
+}
+input[type='password']{
+	width: 500px;
+	margin: 20px 10px 10px 10px;
+	border-color: #c3c5d2;
+	border-radius: 10px;
+	padding-left: 20px;
+	height: 40px;
+	font-size: 1.5em;
+	font-family: 'Segoe UI Black';
+}
+input[type='password']:hover{
+	width: 505px;
+	height: 43px;
+	border-radius: 10px;
+	border-color: #324ab2;
+	color: #000000;
+}
+input[type='checkbox']{
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.button1{
+	width: 500px;
+	margin-right: 10px;
+	border-color: #c3c5d2;
+	border-radius: 10px;
+	padding-left: 20px;
+	margin-top: 50px;
+	height: 50px;
+	background-image: url('IMAGES/bg.png');
+	font-size: 1.5em;
+	font-family: 'Segoe UI Black';
+}
+.button1:hover{
+	height: 53px;
+}
+
+
+@media screen and (max-width: 640px){
+
+	.box{
+		width: 95%;
+	}
+	input[type='first_name']{
+	width: 300px;
+	margin: 20px 10px 10px 10px;
+	border-color: #c3c5d2;
+	border-radius: 10px;
+	padding-left: 20px;
+	height: 40px;
+	font-size: 1.5em;
+	font-family: 'Segoe UI Black';
+}
+input[type='first_name']:hover{
+	width: 305px;
+	height: 43px;
+	border-radius: 10px;
+	border-color: #324ab2;
+	color: #000000;
+}
+input[type='email']{
+	width: 300px;
+	margin: 20px 10px 10px 10px;
+	border-color: #c3c5d2;
+	border-radius: 10px;
+	padding-left: 20px;
+	height: 40px;
+	font-size: 1.5em;
+	font-family: 'Segoe UI Black';
+}
+input[type='email']:hover{
+	width: 305px;
+	height: 43px;
+	border-radius: 10px;
+	border-color: #324ab2;
+	color: #000000;
+}
+input[type='password']{
+	width: 300px;
+	margin: 20px 10px 10px 10px;
+	border-color: #c3c5d2;
+	border-radius: 10px;
+	padding-left: 20px;
+	height: 40px;
+	font-size: 1.5em;
+	font-family: 'Segoe UI Black';
+}
+input[type='password']:hover{
+	width: 305px;
+	height: 43px;
+	border-radius: 10px;
+	border-color: #324ab2;
+	color: #000000;
+}
+input[type='checkbox']{
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+.button1{
+	width: 300px;
+	margin-right: 10px;
+	border-color: #c3c5d2;
+	border-radius: 10px;
+	padding-left: 20px;
+	margin-top: 20px;
+	height: 50px;
+	background-image: url('IMAGES/bg.png');
+	font-size: 1.5em;
+	font-family: 'Segoe UI Black';
+}
+.button1:hover{
+	height: 53px;
+}
+}

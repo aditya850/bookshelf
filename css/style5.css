@@ -1,0 +1,43 @@
+.avatar{
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 50%; 
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 135px;
+	float: left;
+	height: 130px;
+}
+.para{
+	margin-top: 200px; 
+	margin-right: 40px; 
+	margin-left: 40px;
+	font-family: 'Segoe UI Black';
+}
+.ava{
+	float: right;
+}
+@media screen and (max-width: 470px){
+	.avatar{
+		text-align: center;
+		float: none;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+	.para{
+		margin-top: 80px;
+		font-size: 12px;
+	}
+	.border-box{
+		height:640px;
+	}
+	.ava{
+		float: left;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+		margin-right: 60px;
+		margin-left: 60px;
+	}
+}

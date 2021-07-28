@@ -1,0 +1,9 @@
+nav ul li a button{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 25px;
+	font-family: 'Segoe UI Black';
+}
+button:hover{
+	color: #bd0000;
+}
